@@ -1,0 +1,22 @@
+{"actions":[
+ {"type":"goto","url":"http://localhost:8765/"},{"type":"wait","ms":7000},
+ {"type":"move","x":640,"y":300,"glide":200},
+ {"type":"recstart","name":"moku"},{"type":"wait","ms":1300},
+ {"type":"scroll","x":640,"y":500,"dy":3000,"ticks":3},{"type":"wait","ms":1200},
+ {"type":"click","x":640,"y":173,"glide":500},{"type":"wait","ms":2300},
+ {"type":"click","x":1075,"y":510,"glide":600},{"type":"wait","ms":1300},
+ {"type":"click","x":300,"y":285,"glide":600},{"type":"wait","ms":900},
+ {"type":"fpupload","x":1226,"y":441,"glide":500,"files":["C:/Users/dimit/AppData/Local/Temp/claude/C--Users-dimit-Documents-GitHub-DimitrisMilios/bf05ecb6-6b32-499d-a905-bbae07b66d44/scratchpad/rec/shots/phone_glitched_home.png"]},{"type":"wait","ms":1800},
+ {"type":"click","x":421,"y":300,"glide":600},{"type":"wait","ms":900},
+ {"type":"fpupload","x":1226,"y":441,"glide":500,"files":["C:/Users/dimit/AppData/Local/Temp/claude/C--Users-dimit-Documents-GitHub-DimitrisMilios/bf05ecb6-6b32-499d-a905-bbae07b66d44/scratchpad/rec/shots/phone_glitched_join.png"]},{"type":"wait","ms":1800},
+ {"type":"dblclick","x":300,"y":349,"glide":600},{"type":"wait","ms":1000},
+ {"type":"click","x":1075,"y":370,"glide":500},{"type":"down","key":"Control"},{"type":"key","key":"a"},{"type":"up","key":"Control"},{"type":"wait","ms":150},
+ {"type":"type","text":"Decrypt the core.","delay":80},{"type":"wait","ms":1200},
+ {"type":"key","key":"Escape"},{"type":"wait","ms":300},{"type":"click","x":300,"y":402,"glide":600},{"type":"wait","ms":900},
+ {"type":"click","x":1163,"y":413,"glide":500},{"type":"wait","ms":900},
+ {"type":"click","x":1075,"y":571,"glide":500},{"type":"wait","ms":1400},
+ {"type":"click","x":1168,"y":50,"glide":700},{"type":"wait","ms":2400},{"type":"key","key":"Escape"},{"type":"wait","ms":700},
+ {"type":"click","x":631,"y":758,"glide":600},{"type":"wait","ms":2600},
+ {"type":"recstop","name":"moku"},
+ {"type":"shot","name":"moku_final"}
+]}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" class="su-mark" width="50" height="60" viewBox="0 0 101 122" aria-hidden="true">
+  <style>
+    .su-mark { color: #053634; }          /* σε σκούρο φόντο: color:#46E9D4 */
+
+    .su-mark__blk {
+      fill: currentColor;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: suSWave 1.5s ease-in-out infinite;
+    }
+
+    .su-mark__b1 { animation-delay: 0s;    }
+    .su-mark__b2 { animation-delay: 0.11s; }
+    .su-mark__b3 { animation-delay: 0.22s; }
+    .su-mark__b4 { animation-delay: 0.33s; }
+    .su-mark__b5 { animation-delay: 0.44s; }
+
+    @keyframes suSWave {
+      0%, 65%, 100% { opacity: 0.22; transform: scale(0.86); }
+      22%           { opacity: 1;    transform: scale(1);    }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .su-mark__blk { animation: none; opacity: 1; transform: none; }
+    }
+  </style>
+  <rect class="su-mark__blk su-mark__b1" x="25.25" y="0" width="75.75" height="24.4"></rect>
+  <rect class="su-mark__blk su-mark__b2" x="0" y="24.4" width="25.25" height="24.4"></rect>
+  <rect class="su-mark__blk su-mark__b3" x="25.25" y="48.8" width="50.5" height="24.4"></rect>
+  <rect class="su-mark__blk su-mark__b4" x="75.75" y="73.2" width="25.25" height="24.4"></rect>
+  <rect class="su-mark__blk su-mark__b5" x="0" y="97.6" width="75.75" height="24.4"></rect>
+</svg>
