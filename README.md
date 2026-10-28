@@ -169,7 +169,7 @@ An app idea, a shop that needs a real theme, or a gadget that needs firmware and
 <p>
   <a href="https://dimitrismilios.github.io/mjimmi.github.io/">dimitrismilios.github.io</a> ·
   <a href="https://www.linkedin.com/in/dimitris-milios-7a7523382/">LinkedIn</a> ·
-  <a href="mailto:dimmilios@smartupweb.com">dimmilios@smartupweb.com</a>
+  <a href="mailto:dimitrismilios1999@gmail.com">dimitrismilios1999@gmail.com</a>
 </p>
 
 <p align="center">
